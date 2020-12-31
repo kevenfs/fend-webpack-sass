@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
     <head>
         <meta charset="utf-8">
         <title>Test</title>
@@ -23,11 +24,12 @@
 
         <main>
             <section>
-                <form class="" onsubmit="return handleSubmit(event)">
+                <form class="" onsubmit="return Client.handleSubmit(event)">
                     <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Name">
-                    <input type="submit" name="" value="submit" onclick="return handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)"
+                        onsubmit="return handleSubmit(event)">
                 </form>
-            <section>
+            </section>
 
             <section>
                 <strong>Form Results:</strong>
@@ -40,4 +42,5 @@
         </footer>
 
     </body>
+
 </html>
